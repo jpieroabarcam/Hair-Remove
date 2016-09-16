@@ -1,7 +1,8 @@
 ## Hair-Remove
 
 * This is a matlab **hair remove** algorithm
-![](https://raw.githubusercontent.com/hujingshuang/imageEncryption/master/software%20interface.jpg)
+![](https://github.com/hujingshuang/Hair-Remove/blob/master/result1.jpg)
+![](https://github.com/hujingshuang/Hair-Remove/blob/master/result2.jpg)
 
 ## About
 
