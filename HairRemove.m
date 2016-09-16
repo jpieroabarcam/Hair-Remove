@@ -1,7 +1,7 @@
 clc;clear;close all;
-% img_rgb = imread('eyes.png');
+img_rgb = imread('eyes.png');
 % img_rgb = imread('baby.jpg');
-img_rgb = imread('famale.jpg');
+% img_rgb = imread('famale.jpg');
 % img_rgb = imread('face.jpg');
 
 [img_skin, img_bw] = SkinDetecte(img_rgb);
