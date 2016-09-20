@@ -1,0 +1,98 @@
+命令：
+git config --list					查看配置信息
+git config user.email				查看配置的邮箱
+
+git init						生成.git目录
+git add *.cpp						跟踪.cpp文件、提交暂存
+git add README					跟踪README文件、提交暂存
+git commit -m "add a new function"			提交,双引号内为更改说明
+
+git clone git@github.com:hujingshuang/leetcode.git			克隆远程端的项目仓库
+git clone git://github.com/hujingshuang/leetcode.git
+git clone git://github.com/hujingshuang/leetcode.git LeetCode		克隆到自定义目录
+
+git status						查看文件状态
+rm demo.cpp						从目录中删除demo.cpp文件
+git rm demo.cpp					从仓库中移除demo.cpp
+git rm --cached readme.txt				从仓库中移除，但是依然在目录中
+
+//删除远程仓库中的文件
+git rm --cached demo.cpp
+git commite -m "xxxx"
+git push origin master
+//
+git mv README.TXT README.MD				重命名
+
+git log --pretty=oneline				查看修改历史(简洁)
+git log --pretty=short				查看修改历史( |  )
+git log --pretty=full				查看修改历史( |  )
+git log --pretty=fuller				查看修改历史( |  )
+git log						查看修改历史(复杂)
+git log --pretty=format:"%H %an %ar : %s"		查看修改历史(自定义差格式)
+gitk							查阅提交历史的图形界面
+
+git remote						查看远程仓库
+git remote -v						详细查看远程仓库
+git remote add ABC https://github.com/hujingshuang/imageEncryption.git	添加仓库ABC
+git fetch ABC						抓取数据到新仓库
+
+git push origin master				推送数据
+git pull
+git clone
+
+git remote rename ABC abc				重命名远程仓库ABC为abc
+git remote rm	abc					删除远程仓库abc
+
+git tag						查看仓库已有标签
+git tag -1 'v1.4.*'					只查看v1.4开头的版本
+
+git tag v1.2.4					新建标签v1.2.4
+git tag -a v1.3.2 -m 'version 1.3.2'		新建带有注释的标签
+git tag -s v1.1.1 -m 'version 1.1.1'		GPG标签
+git tag -a v1.2 9fceb02				对9fceb02版本追加标签
+git show v1.2.4					显示标签
+
+git reset --hard 9fceb02				回退到某个版本
+//push的默认不带标签，需要手动推送
+git push origin v1.4					推送某个标签
+git push origin --tags				推送所有标签
+
+//分支管理(本地)
+git branch						查看分支
+git branch testing					创建新的分支testing(HEAD不会自动指向新的分支)
+git checkout testing					手动切换到testing分支上去(HEAD指向该分支)
+git checkout -b iss53				新建分支iss53并将HEAD指向该分支
+git branch -d testing				删除分支testing
+git branch -D testing				强制删除分支testing，在未合并且要删除的时候用此命令
+
+git merge testing					将当前分支与testing分支合并
+git mergetool						可视化合并工具
+git branch -v						查看各分支最后一次commit
+git branch --merged					查看已经合并的分支
+git branch --no-merged				查看尚未合并的分支
+//分支管理(远程)
+git push origin :testing				删除远程端的分支testing
+
+
+//远程仓库的一些访问方法
+git@github.com:hujingshuang/imageEncryption.git
+HTTP/S协议：		https://github.com/hujingshuang/imageEncryption.git
+
+
+// -------------------------------------------
+git编辑器：
+ESC				退出编辑模式
+:wq、:x、ZZ			保存并退出
+:xa				多个的保存并退出
+:q!、ZQ			不保存退出
+:e!				撤销修改
+i、a				插入模式
+
+警告：
+// -------------------------------------------
+warning: LF will be replaced by CRLF in xxxx.
+删除.git目录，在设置不自动替换，再重新生成.git.
+①rm -rf .git
+②git config --global core.autocrlf false
+③git init
+// -------------------------------------------

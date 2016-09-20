@@ -22,6 +22,7 @@ b_center = sum( sum( img_b(pos_other) ) ) / size(pos_other, 1);
 other_center = [r_center, g_center, b_center];
 
 img_BW = zeros(row, col);
+img_BW( find(img_bw == 2) ) = 2;
 
 for i = 1 : row
     for j = 1 : col
@@ -33,9 +34,10 @@ for i = 1 : row
 end
 
 pos_skin = find(img_BW == 0);
-img_r(pos_skin) = 0;
+img_r(pos_skin) = 0;              %0 255
 img_g(pos_skin) = 0;
 img_b(pos_skin) = 0;
+
 img_output(:, :, 1) = img_r;
 img_output(:, :, 2) = img_g;
 img_output(:, :, 3) = img_b;
