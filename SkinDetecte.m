@@ -1,6 +1,5 @@
 function [img_skin, img_bw] = SkinDetecte(img_rgb)
 [row, col, dim] = size(img_rgb);
-
 r = img_rgb(:, :, 1);
 g = img_rgb(:, :, 2);
 b = img_rgb(:, :, 3);
