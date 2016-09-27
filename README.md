@@ -23,10 +23,10 @@
 * - **Skin detection and hair remove;**
 * - **Output result image.**
 * **`RESULT`**
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/HairDetection/Doc/result%20images/1.png?at=master&fileviewer=file-view-default)
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/HairDetection/Doc/result%20images/2.png?at=master&fileviewer=file-view-default)
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/HairDetection/Doc/result%20images/3.png?at=master&fileviewer=file-view-default)
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/HairDetection/Doc/result%20images/4.png?at=master&fileviewer=file-view-default)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/HairDetection/1.png)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/HairDetection/2.png)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/HairDetection/3.png)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/HairDetection/4.png)
 
 ---
 ##### Spot Quantification
@@ -34,14 +34,14 @@
 * - **Input RGB, gray and binary mask image;**
 * - **Image preprocessing;**
 * - **Spot detection and quantification;**
-* -** Output and show result image.**
+* - ** Output and show result image.**
 * **`RESULT`**
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/SpotQuantification/Doc/result%20images/1-1.png?at=master&fileviewer=file-view-default)
-![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/SpotQuantification/Doc/result%20images/1-2.png?at=master&fileviewer=file-view-default)
-![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/SpotQuantification/Doc/result%20images/1-3.png?at=master&fileviewer=file-view-default)
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/SpotQuantification/Doc/result%20images/2-1.png?at=master&fileviewer=file-view-default)
-![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/SpotQuantification/Doc/result%20images/2-2.png?at=master&fileviewer=file-view-default)
-![](https://bitbucket.org/kvalgorithm/intern/src/89d3e74d9c38225594b1a8112515bcb6e8ca123c/SpotQuantification/Doc/result%20images/2-3.png?at=master&fileviewer=file-view-default)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/1-1.png)
+![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/1-2.png)
+![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/1-3.png)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/2-1.png)
+![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/2-2.png)
+![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/2-3.png)
 
 ---
 ##### Wrinkle Quantification
@@ -49,6 +49,7 @@
 * - **Input RGB and gray images of winkle;**
 * - **Find and mark some winkle feature, just like width, length and mean value of winkle region, and so on...;**
 * - **Display the result.**
+* 
 * **`RESULT`**
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/fe50e4daec9d5e4b00487667157dc0cd22b5a45a/WrinkleQuantification/Doc/result%20images/1.bmp?at=master&fileviewer=file-view-default)
-* - ![](https://bitbucket.org/kvalgorithm/intern/src/fe50e4daec9d5e4b00487667157dc0cd22b5a45a/WrinkleQuantification/Doc/result%20images/2.bmp?at=master&fileviewer=file-view-default)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/WrinkleQuantification/1.bmp)
+* - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/WrinkleQuantification/2.bmp)
