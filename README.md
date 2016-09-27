@@ -34,7 +34,7 @@
 * - **Input RGB, gray and binary mask image;**
 * - **Image preprocessing;**
 * - **Spot detection and quantification;**
-* - ** Output and show result image.**
+* - **Output and show result image.**
 * **`RESULT`**
 * - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/1-1.png)
 ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/SpotQuantification/1-2.png)
@@ -49,7 +49,6 @@
 * - **Input RGB and gray images of winkle;**
 * - **Find and mark some winkle feature, just like width, length and mean value of winkle region, and so on...;**
 * - **Display the result.**
-* 
 * **`RESULT`**
 * - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/WrinkleQuantification/1.bmp)
 * - ![](https://github.com/hujingshuang/Hair-Remove/blob/master/result%20images/WrinkleQuantification/2.bmp)
